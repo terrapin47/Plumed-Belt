@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "plumedbelt:plumed_belt"
+  },
+  "pattern": [
+    "af ",
+    "f f",
+    "mfe"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "f": {
+      "type": "forge:ore_dict",
+      "ore": "feather"
+    },
+    "e": {
+      "type": "forge:ore_dict",
+      "ore": "runeEarthB"
+    },
+    "m": {
+      "type": "forge:ore_dict",
+      "ore": "ingotManasteel"
+    },
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "runeAirB"
+    }
+  }
+}

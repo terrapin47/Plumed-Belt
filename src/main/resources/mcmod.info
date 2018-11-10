@@ -1,0 +1,16 @@
+[
+{
+  "modid": "plumedbelt",
+  "name": "PlumedBelt",
+  "description": "Adds a belt bauble that negates all fall damage.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/terrapin47/Plumed-Belt",
+  "updateUrl": "",
+  "authorList": ["terrapin47", "Locien"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
