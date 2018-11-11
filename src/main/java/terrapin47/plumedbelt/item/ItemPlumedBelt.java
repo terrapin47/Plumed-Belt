@@ -29,6 +29,7 @@ public class ItemPlumedBelt extends Item implements IBauble {
 		setRegistryName(name);
 		setUnlocalizedName(PlumedBelt.MODID + "." + name);
 		setCreativeTab(CreativeTabs.MATERIALS);
+		setMaxStackSize(1);
 	}
 
 	@Override
@@ -47,7 +48,6 @@ public class ItemPlumedBelt extends Item implements IBauble {
 	@SubscribeEvent
 	public static void onPlayerAttacked(LivingAttackEvent event) {
 		if(event.getEntityLiving() instanceof EntityPlayer) {
-			EntityPlayer player = (EntityPlayer) event.getEntityLiving();
 			if (event.getSource().damageType.equals(DamageSource.FLY_INTO_WALL.damageType)) {
 				event.setCanceled(true);
 			}
