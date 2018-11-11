@@ -1,7 +1,7 @@
 [
 {
   "modid": "plumedbelt",
-  "name": "PlumedBelt",
+  "name": "Plumed Belt",
   "description": "Adds a belt bauble that negates all fall damage.",
   "version": "${version}",
   "mcversion": "${mcversion}",

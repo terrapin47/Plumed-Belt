@@ -13,8 +13,8 @@ import terrapin47.plumedbelt.proxy.CommonProxy;
 public class PlumedBelt {
 
     public static final String MODID = "plumedbelt";
-    public static final String MODNAME = "PlumedBelt";
-    public static final String MODVERSION= "1.0.0";
+    public static final String MODNAME = "Plumed Belt";
+    public static final String MODVERSION= "1.0.1";
 
     @SidedProxy(clientSide = "terrapin47.plumedbelt.proxy.ClientProxy", serverSide = "terrapin47.plumedbelt.proxy.ServerProxy")
     public static CommonProxy proxy;
